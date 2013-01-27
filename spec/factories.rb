@@ -9,6 +9,11 @@ FactoryGirl.define do
       admin true
     end
   end
+
+  factory :micropost do
+    content "Carpe diem"
+    user
+  end
 end
 
 
